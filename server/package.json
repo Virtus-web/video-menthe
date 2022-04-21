@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "API for wedding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Nicolas Pedenau",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg/core": "^0.10.0",
+    "@ffmpeg/ffmpeg": "^0.10.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "mongoose": "^6.3.0",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "reactstrap": "^9.0.2"
+  }
+}
